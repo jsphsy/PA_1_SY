@@ -1,4 +1,4 @@
-# Introduction to Python Programming: Experiment#1
+# Introduction to Python Programming: Assignment#1
 
 This repository contains solutions to three Python programming exercises as part of an Introductory Python Programming Experiment.
 
