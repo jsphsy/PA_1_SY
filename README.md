@@ -9,23 +9,26 @@ Task: Create a function named rotate word() that accepts a non-empty string. Mov
 of the string to the end while keeping all remaining characters in their original order. Preserve the
 capitalization of every character.
 
-Example: alphabet_soup("hello") -> "ehllo"
+Example: rotate_word("Programming") -> "rogrammingP", rotate_word("Google") -> "oogleG"
 
-# 2) Emoticon Problem
-Task: Create a function that changes specific words into emoticons. Given a sentence as a string, replace the words smile, grin, sad, and mad with their corresponding emoticon:
-Smile -> :)
-Grin -> :D
-Sad -> :((
-Mad -> >:(
+# B. USERNAME BUILDER PROBLEM
 
-Example: emotify("Make me smile") -> "Make me :)"
+Task: Create a function named make username() that accepts two strings: first name and last name. The
+function must:
+1. convert all letters to lowercase;
+2. remove all spaces from the first name;
+3. remove all spaces from the last name; and
+4. join the processed first and last names using one period (.).
+Function format: make username(first name, last name)
 
-# 3) Unpacking List Problem
-Task: Unpack a list into three variables: first, middle, last, with middle containing everything between the first and last element. Then print all three variables.
+Example: make_username("Joseph", "Sy") -> "joseph.sy", make_username("Sherina", "Padilla") -> "sherina.padilla"
 
-Example: list = [1, 2, 3, 4, 5, 6]
 
-Output: first: 1, middle: [2, 3, 4, 5], last: 6
+# C. BOOKEND SWAP PROBLEM
+
+Task: Create a function named swap bookends() that accepts a list containing at least two elements. Using these variables, return a new list in which the first and last elements have exchanged positions. The elements in middle must remain in their original order.
+
+Example: swap_bookends(["happy", "sad", "angry"]) -> ["angry", "sad", "happy"], swap_bookends([6, 7]) -> [7, 6]
 
 # Implementation:
 The solutions are implemented in a Jupyter Notebook file (.ipynb) conatining:
@@ -35,4 +38,4 @@ The solutions are implemented in a Jupyter Notebook file (.ipynb) conatining:
 
 # Learning Outcomes:
 Through these exercises, you will:
-- Identify basic codes and functions in Python Progra
+- Identify basic codes and functions in Python Programming
